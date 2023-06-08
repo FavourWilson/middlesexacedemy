@@ -1,12 +1,13 @@
 import { useState } from 'react'
-import Snake from './components/atoms/snake'
+
+import Tree from './components/molecules/tree'
 
 function App() {
   
 
   return (
     <>
-      <Snake/>
+      <Tree/>
     </>
   )
 }
