@@ -86,9 +86,32 @@ const LandingPage = () => {
           <LightPurpleCircle/>
           
           </div>
+        </div>
+        
+        <div className='flex flex-col mt-10 translate-x-[7rem]'>
+            <div className='flex  gap-10'>
+          <PinkCircle/>
+          <PinkCircle/>
+          <PinkCircle/>
+            </div>
+            <div className='flex  gap-10 translate-x-[1.7rem]'>
+              <PinkCircle/>
+              <PinkCircle/>
+       
+              </div>
+        </div>
+        
+          <div className='flex flex-col translate-x-[7rem]'>
+          <div className='flex  gap-10'>
+          <BlueCircle/>
+          <BlueCircle/>
+          <BlueCircle/>
+        </div>
+         <div className='flex  gap-10 translate-x-[5rem]'>
+          <BlueCircle/>
+          
+          </div>
          </div>
-        
-        
         
        
         
