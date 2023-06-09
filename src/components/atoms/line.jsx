@@ -2,7 +2,7 @@ import React from 'react'
 
 const Line = () => {
   return (
-    <div className="p-5 h-[120rem] bg-slate-800 rounded-xl"></div>
+    <div className="flex justify-start w-[1.5rem] translate-x-[18rem] h-[120rem] bg-slate-800 rounded-xl"></div>
   )
 }
 
