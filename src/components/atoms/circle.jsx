@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Circle = ({className,children}) => {
+const Circle = ({className,value}) => {
   return (
-    <div>
-      <div className={`w-[3rem] h-[3rem] rounded-full bg-[#EB6707] ${className}`}></div>
-      <label className={ `text-[#EB6707] font-bold`}>{children}</label>
+    <div className={`flex items-center gap-5 ${className}`}>
+      <div className={`w-[3rem] h-[3rem] rounded-full bg-[#EB6707] `}></div>
+      <label className={ `text-[#EB6707] font-bold`}>{value}</label>
     </div>
   )
 }
